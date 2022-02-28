@@ -1,0 +1,22 @@
+{
+  "name": "express_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "koa": "^2.13.4",
+    "koa-router": "^10.1.1",
+    "md5-node": "^1.0.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^6.2.2",
+    "nodemailer": "^6.7.2",
+    "string-format": "^2.0.0",
+    "url": "^0.11.0"
+  }
+}

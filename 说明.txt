@@ -1,0 +1,24 @@
+项目目的：学习使用koa，可以在此基础上继续添加逻辑供web服务器使用
+1.安装依赖包
+npm install
+
+2.需要安装配置mongo，配置文件在config/config.js中
+
+3.启动
+node index.js
+
+
+4.测试命令
+--account登陆
+http://127.0.0.1:3000/auth/login?account=812609811@qq.com&password=123&devicetype=pc&ip=192.168.0.38&browsertype=google&md5=039e98e7b5dae203134bbb4c18737934
+
+--token登陆
+http://127.0.0.1:3000/auth/logintoken?token=bf553bcb3a9baff9cc370772429658e8&account=812609811@qq.com&devicetype=pc&ip=192.168.0.38&browsertype=google&md5=7f3a994ea058884512aa2425fbc27c61
+
+--注册
+http://127.0.0.1:3000/auth/register?password=123&devicetype=pc&ip=192.168.0.38&browsertype=google&email=812609811@qq.com&vericode=001&url=testurl&md5=ae7b0a721b9a7eeafcb30c220e5c5665
+
+ --发送邮件
+ http://127.0.0.1:3000/getcode?email=812609811@qq.com&md5=2865b4808379edfac33d9a518e139a62
+
+
